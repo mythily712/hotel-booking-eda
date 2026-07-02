@@ -40,4 +40,34 @@ cancellation patterns
 ## Repository Contents
 
 | File | Description |
-|---|--
+|---|-----|
+| `hotel_booking_eda.ipynb` | Full executed notebook with all analysis and outputs |
+| `hotel_bookings.csv` | Raw dataset (119,390 rows) |
+| `build_notebook.py` | Script used to programmatically build and execute the notebook |
+| `*.png` | Exported high-resolution chart visualizations |
+
+## Visualizations
+
+### ADR Seasonality by Hotel Type
+![ADR Seasonality](adr_seasonality.png)
+
+### Booking Distribution by Customer Segment
+![Customer Segment](bookings_by_customer_segment.png)
+
+### Cancellation Rate by Lead Time
+![Lead Time vs Cancellation](lead_time_vs_cancellation.png)
+
+### Monthly Booking Trends
+![Monthly Trends](monthly_booking_trends.png)
+
+### Cancellation Rate by Hotel Type
+![Cancellation by Hotel](cancellation_by_hotel.png)
+
+### Distribution Channel Analysis
+![Channel Analysis](distribution_channel_analysis.png)
+
+### Top Countries by Bookings
+![Top Countries](top_countries.png)
+
+### Revenue Loss Estimate
+![Revenue Loss](revenue_loss_estimate.png)
